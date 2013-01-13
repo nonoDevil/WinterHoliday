@@ -19,7 +19,7 @@ int main(void)
 	cout << "pls input filename:" << endl;
 	cin.getline(filename, MAX_PATH);
 	fstream fbin(filename, ios::binary | ios::out);
-	/*以二进制打开文件，写法没见过哦*/
+	/*以二进制打开文件，写法没见过哦,ios::out表示写文件的操作*/
 
 	if(!fbin){
 	
