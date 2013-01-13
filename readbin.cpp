@@ -17,7 +17,8 @@ int main(void)
 	cout << "enter filename:" << endl;
 	cin.getline(filename, 200);
 
-	fstream fbin(filename, ios::binary | ios::in);
+	fstream fbin(filename, ios::binary | ios::in);   
+	/*ios:in是往外读哦*/
 	if(!fbin){
 	
 		cout << filename << " could not be opened." << endl;
