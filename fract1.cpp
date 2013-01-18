@@ -47,7 +47,7 @@ void fraction::normalize()
 	num /= n;
 	den /= n;
 
-	return 0;
+	return ;
 }
 
 int fraction::gcf(int a, int b)
