@@ -15,7 +15,7 @@ int main(void)
 		cout << filename << "could not be opened." << endl;
 		return -1;
 	}
-    cout << filename << "was opened." << endl;
+    	cout << filename << "was opened." << endl;
 	file_out << "i love beaver." << endl;   //往指定的文件流里写东西
 	file_out << "forever." << endl; //   <<代表往里写    
 	file_out.close();  //关闭的方式也好新奇

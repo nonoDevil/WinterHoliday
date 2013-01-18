@@ -22,10 +22,10 @@ int main(void)
 	pt2.set(-25,-15);
 
 	cout << "pt2 is " << pt2.get_x();
-    cout << ", " << pt2.get_y() << endl;
-    return 0;	
-
-
+	cout << ", " << pt2.get_y() << endl;
+    
+	
+	return 0;	
 }
 
 void point::set(int new_x, int new_y)
@@ -41,6 +41,8 @@ void point::set(int new_x, int new_y)
 
 	x = new_x;
 	y = new_y;
+
+	return ;
 }
 
 int point::get_x()

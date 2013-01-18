@@ -11,7 +11,7 @@ int main(void)
 
 	
 	cout << "please input a file's name,the file must be existent." << endl;
-    cin.getline(filename, 50);
+	cin.getline(filename, 50);
 	ifstream file_in(filename);
 
 	if(!file_in){

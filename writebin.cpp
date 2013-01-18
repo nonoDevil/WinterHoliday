@@ -57,7 +57,4 @@ int get_int(int default_value)
 	}
 
 	return atoi(s);
-
-	
-
 }

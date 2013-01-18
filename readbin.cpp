@@ -13,7 +13,7 @@ int main(void)
 	int age = 0;
 	char filename[200];
 	char name[20];
-    int recsize = sizeof(filename) + sizeof(int);
+ 	int recsize = sizeof(filename) + sizeof(int);
 	cout << "enter filename:" << endl;
 	cin.getline(filename, 200);
 
